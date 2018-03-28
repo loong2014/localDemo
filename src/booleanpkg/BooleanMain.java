@@ -44,5 +44,14 @@ public class BooleanMain {
 		if (isHandleA() | isHandleB()) {
 			System.out.println("1111111");
 		}
+		
+		User user = new User();
+		int age = user.getAge();
+		System.out.println("age :"+user.getAge());
+		int homoe = user.getHome();
+		System.out.println("home :"+user.getHome());
+		
+		
+		
 	}
 }
