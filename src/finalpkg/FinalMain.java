@@ -27,6 +27,14 @@ public class FinalMain {
 //				}
 //			}).start();
 //		}
+	
+	String string = "/adfadfa";
+	String[] strPart = string.split("/");
+	
+	System.out.println(" :"+strPart[0]);
+	for(String string2 :strPart){
+		System.out.println("str :"+string2);
+	}
 	}
 
 }
